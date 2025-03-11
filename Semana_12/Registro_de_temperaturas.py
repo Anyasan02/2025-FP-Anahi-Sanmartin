@@ -1,152 +1,128 @@
-# Creación de una matriz 3D para almacenar los datos de las temperaturas
-# Primera dimensión: Ciudades (Quito, Loja, Machala)
+# creacion de una matriz 3D  para almacenar los datos de las temperaturas
+# Primera dimensión: Ciudades (Quito,Loja,Machala)
 # Segunda dimensión: Días de la semana (7 días)
 # Tercera dimensión: Semanas (4 semanas)
-
 temperaturas = [
     {"ciudad": "Quito", "semanas": [
-        [   # Semana 1
-            {"day": "Lunes", "temp": 13},
-            {"day": "Martes", "temp": 12},
-            {"day": "Miércoles", "temp": 12},
-            {"day": "Jueves", "temp": 11},
-            {"day": "Viernes", "temp": 11},
-            {"day": "Sábado", "temp": 9},
-            {"day": "Domingo", "temp": 10}
+        [  # Semana 1
+            {"day": "Lunes", "temp": 78},
+            {"day": "Martes", "temp": 80},
+            {"day": "Miércoles", "temp": 82},
+            {"day": "Jueves", "temp": 79},
+            {"day": "Viernes", "temp": 85},
+            {"day": "Sábado", "temp": 88},
+            {"day": "Domingo", "temp": 92}
         ],
-        [   # Semana 2
-            {"day": "Lunes", "temp": 9},
-            {"day": "Martes", "temp": 9},
-            {"day": "Miércoles", "temp": 9},
-            {"day": "Jueves", "temp": 8},
-            {"day": "Viernes", "temp": 9},
-            {"day": "Sábado", "temp": 11},
-            {"day": "Domingo", "temp": 13}
+        [  # Semana 2
+            {"day": "Lunes", "temp": 76},
+            {"day": "Martes", "temp": 79},
+            {"day": "Miércoles", "temp": 83},
+            {"day": "Jueves", "temp": 81},
+            {"day": "Viernes", "temp": 87},
+            {"day": "Sábado", "temp": 89},
+            {"day": "Domingo", "temp": 93}
         ],
-        [   # Semana 3
-            {"day": "Lunes", "temp": 15},
-            {"day": "Martes", "temp": 15},
-            {"day": "Miércoles", "temp": 15},
-            {"day": "Jueves", "temp": 15},
-            {"day": "Viernes", "temp": 14},
-            {"day": "Sábado", "temp": 15},
-            {"day": "Domingo", "temp": 14}
+        [  # Semana 3
+            {"day": "Lunes", "temp": 77},
+            {"day": "Martes", "temp": 81},
+            {"day": "Miércoles", "temp": 85},
+            {"day": "Jueves", "temp": 82},
+            {"day": "Viernes", "temp": 88},
+            {"day": "Sábado", "temp": 91},
+            {"day": "Domingo", "temp": 95}
         ],
-        [   # Semana 4
-            {"day": "Lunes", "temp": 13},
-            {"day": "Martes", "temp": 12},
-            {"day": "Miércoles", "temp": 15},
-            {"day": "Jueves", "temp": 17},
-            {"day": "Viernes", "temp": 16},
-            {"day": "Sábado", "temp": 15},
-            {"day": "Domingo", "temp": 11}
+        [  # Semana 4
+            {"day": "Lunes", "temp": 75},
+            {"day": "Martes", "temp": 78},
+            {"day": "Miércoles", "temp": 80},
+            {"day": "Jueves", "temp": 79},
+            {"day": "Viernes", "temp": 84},
+            {"day": "Sábado", "temp": 87},
+            {"day": "Domingo", "temp": 91}
         ]
     ]},
     {"ciudad": "Loja", "semanas": [
-        [   # Semana 1
-            {"day": "Lunes", "temp": 15},
-            {"day": "Martes", "temp": 15},
-            {"day": "Miércoles", "temp": 14},
-            {"day": "Jueves", "temp": 14},
-            {"day": "Viernes", "temp": 14},
-            {"day": "Sábado", "temp": 14},
-            {"day": "Domingo", "temp": 13}
+        [  # Semana 1
+            {"day": "Lunes", "temp": 62},
+            {"day": "Martes", "temp": 64},
+            {"day": "Miércoles", "temp": 68},
+            {"day": "Jueves", "temp": 70},
+            {"day": "Viernes", "temp": 73},
+            {"day": "Sábado", "temp": 75},
+            {"day": "Domingo", "temp": 79}
         ],
-        [   # Semana 2
-            {"day": "Lunes", "temp": 14},
-            {"day": "Martes", "temp": 14},
-            {"day": "Miércoles", "temp": 13},
-            {"day": "Jueves", "temp": 14},
-            {"day": "Viernes", "temp": 13},
-            {"day": "Sábado", "temp": 13},
-            {"day": "Domingo", "temp": 13}
+        [  # Semana 2
+            {"day": "Lunes", "temp": 63},
+            {"day": "Martes", "temp": 66},
+            {"day": "Miércoles", "temp": 70},
+            {"day": "Jueves", "temp": 72},
+            {"day": "Viernes", "temp": 75},
+            {"day": "Sábado", "temp": 77},
+            {"day": "Domingo", "temp": 81}
         ],
-        [   # Semana 3
-            {"day": "Lunes", "temp": 58},
-            {"day": "Martes", "temp": 58},
-            {"day": "Miércoles", "temp": 58},
-            {"day": "Jueves", "temp": 57},
-            {"day": "Viernes", "temp": 57},
-            {"day": "Sábado", "temp": 57},
-            {"day": "Domingo", "temp": 56}
+        [  # Semana 3
+            {"day": "Lunes", "temp": 61},
+            {"day": "Martes", "temp": 65},
+            {"day": "Miércoles", "temp": 68},
+            {"day": "Jueves", "temp": 70},
+            {"day": "Viernes", "temp": 72},
+            {"day": "Sábado", "temp": 76},
+            {"day": "Domingo", "temp": 80}
         ],
-        [   # Semana 4
-            {"day": "Lunes", "temp": 56},
-            {"day": "Martes", "temp": 56},
-            {"day": "Miércoles", "temp": 56},
-            {"day": "Jueves", "temp": 57},
-            {"day": "Viernes", "temp": 59},
-            {"day": "Sábado", "temp": 62},
-            {"day": "Domingo", "temp": 65}
+        [  # Semana 4
+            {"day": "Lunes", "temp": 64},
+            {"day": "Martes", "temp": 67},
+            {"day": "Miércoles", "temp": 69},
+            {"day": "Jueves", "temp": 71},
+            {"day": "Viernes", "temp": 74},
+            {"day": "Sábado", "temp": 77},
+            {"day": "Domingo", "temp": 80}
         ]
     ]},
     {"ciudad": "Machala", "semanas": [
-        [   # Semana 1
-            {"day": "Lunes", "temp": 80},
-            {"day": "Martes", "temp": 79},
-            {"day": "Miércoles", "temp": 78},
-            {"day": "Jueves", "temp": 78},
-            {"day": "Viernes", "temp": 79},
-            {"day": "Sábado", "temp": 79},
-            {"day": "Domingo", "temp": 78}
+        [  # Semana 1
+            {"day": "Lunes", "temp": 90},
+            {"day": "Martes", "temp": 92},
+            {"day": "Miércoles", "temp": 94},
+            {"day": "Jueves", "temp": 91},
+            {"day": "Viernes", "temp": 88},
+            {"day": "Sábado", "temp": 85},
+            {"day": "Domingo", "temp": 82}
         ],
-        [   # Semana 2
-            {"day": "Lunes", "temp": 77},
-            {"day": "Martes", "temp": 77},
-            {"day": "Miércoles", "temp": 77},
-            {"day": "Jueves", "temp": 77},
-            {"day": "Viernes", "temp": 78},
-            {"day": "Sábado", "temp": 80},
+        [  # Semana 2
+            {"day": "Lunes", "temp": 89},
+            {"day": "Martes", "temp": 91},
+            {"day": "Miércoles", "temp": 93},
+            {"day": "Jueves", "temp": 90},
+            {"day": "Viernes", "temp": 87},
+            {"day": "Sábado", "temp": 84},
             {"day": "Domingo", "temp": 81}
         ],
-        [   # Semana 3
-            {"day": "Lunes", "temp": 85},
-            {"day": "Martes", "temp": 83},
-            {"day": "Miércoles", "temp": 86},
-            {"day": "Jueves", "temp": 86},
-            {"day": "Viernes", "temp": 86},
-            {"day": "Sábado", "temp": 85},
+        [  # Semana 3
+            {"day": "Lunes", "temp": 91},
+            {"day": "Martes", "temp": 93},
+            {"day": "Miércoles", "temp": 95},
+            {"day": "Jueves", "temp": 92},
+            {"day": "Viernes", "temp": 89},
+            {"day": "Sábado", "temp": 86},
             {"day": "Domingo", "temp": 83}
         ],
-        [   # Semana 4
-            {"day": "Lunes", "temp": 84},
-            {"day": "Martes", "temp": 82},
-            {"day": "Miércoles", "temp": 81},
-            {"day": "Jueves", "temp": 78},
-            {"day": "Viernes", "temp": 79},
-            {"day": "Sábado", "temp": 79},
-            {"day": "Domingo", "temp": 77}
+        [  # Semana 4
+            {"day": "Lunes", "temp": 88},
+            {"day": "Martes", "temp": 90},
+            {"day": "Miércoles", "temp": 92},
+            {"day": "Jueves", "temp": 89},
+            {"day": "Viernes", "temp": 86},
+            {"day": "Sábado", "temp": 83},
+            {"day": "Domingo", "temp": 80}
         ]
     ]}
 ]
 
-# Función para calcular el promedio de temperaturas por ciudad
-def calcular_temperatura_promedio(temperaturas):
-    """
-    Calcula el promedio de temperaturas de cada ciudad.
-
-    :param temperaturas: Lista de diccionarios con los datos de las temperaturas.
-    :return: Diccionario con las ciudades y su temperatura promedio.
-    """
-    promedios = {}
-
-    for ciudad in temperaturas:
-        total_temp = 0
-        total_dias = 0
-
-        for semana in ciudad["semanas"]:
-            for dia in semana:
-                total_temp += dia["temp"]
-                total_dias += 1
-
-        promedio_ciudad = total_temp / total_dias
-        promedios[ciudad["ciudad"]] = round(promedio_ciudad, 2)
-
-    return promedios
-
-# Llamar a la función y mostrar los resultados
-resultados = calcular_temperatura_promedio(temperaturas)
-
-print("\nPromedio de temperaturas por ciudad:")
-for ciudad, promedio in resultados.items():
-    print(f"{ciudad}: {promedio}°F")
+# Calcular el promedio de las temperaturas para cada ciudad y semana
+for ciudad in temperaturas:
+    print(f"Promedio de temperaturas en {ciudad['ciudad']}: ")
+    for semana_idx, semana in enumerate(ciudad['semanas']):
+        suma_temperaturas = sum([dia["temp"] for dia in semana])
+        promedio = suma_temperaturas / len(semana)
+        print(f"  Semana {semana_idx + 1}: {promedio:.2f} grados")
