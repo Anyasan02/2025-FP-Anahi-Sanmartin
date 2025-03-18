@@ -25,3 +25,4 @@ descuento2 = calcular_descuento(monto, porcentaje)
 monto_final2 = monto - descuento2
 print(f"Con un descuento del {porcentaje}%, el monto del descuento es: {descuento2:.2f}")
 print(f"Monto final a pagar: {monto_final2:.2f}")
+
